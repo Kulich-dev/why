@@ -1,0 +1,11 @@
+include /usr/share/nano/*.nanorc
+set titlecolor white,blue
+set numbercolor white,black
+set statuscolor white,black
+set functioncolor white
+set keycolor red,black
+set nonewlines
+set linenumbers
+set constantshow
+set softwrap
+set tabsize 2

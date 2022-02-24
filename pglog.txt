@@ -1,0 +1,508 @@
+2022-01-08 04:04:53.823 MSK [1898] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-08 04:04:53.823 MSK [1898] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-08 04:04:53.836 MSK [1898] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-08 04:04:53.862 MSK [1899] LOG:  database system was shut down at 2022-01-08 03:44:45 MSK
+2022-01-08 04:04:53.891 MSK [1898] LOG:  database system is ready to accept connections
+2022-01-08 04:12:34.747 MSK [1898] LOG:  received smart shutdown request
+2022-01-08 04:12:34.756 MSK [1898] LOG:  background worker "logical replication launcher" (PID 1905) exited with exit code 1
+2022-01-08 04:12:34.756 MSK [1900] LOG:  shutting down
+2022-01-08 05:05:51.836 MSK [1894] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-08 05:05:51.838 MSK [1894] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-08 05:05:51.856 MSK [1894] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-08 05:05:51.887 MSK [1895] LOG:  database system was shut down at 2022-01-08 04:12:34 MSK
+2022-01-08 05:05:51.921 MSK [1894] LOG:  database system is ready to accept connections
+2022-01-08 05:06:00.881 MSK [1894] LOG:  received fast shutdown request
+2022-01-08 05:06:00.888 MSK [1894] LOG:  aborting any active transactions
+2022-01-08 05:06:00.889 MSK [1894] LOG:  background worker "logical replication launcher" (PID 1901) exited with exit code 1
+2022-01-08 05:06:00.889 MSK [1896] LOG:  shutting down
+2022-01-08 05:06:00.946 MSK [1894] LOG:  database system is shut down
+2022-01-18 11:41:34.222 MSK [3986] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-18 11:41:34.223 MSK [3986] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-18 11:41:34.231 MSK [3986] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-18 11:41:34.247 MSK [3987] LOG:  database system shutdown was interrupted; last known up at 2022-01-08 05:27:13 MSK
+2022-01-18 11:41:34.368 MSK [3987] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-18 11:41:34.378 MSK [3987] LOG:  redo starts at 0/18CDBA0
+2022-01-18 11:41:34.378 MSK [3987] LOG:  invalid record length at 0/18CDBD8: wanted 24, got 0
+2022-01-18 11:41:34.378 MSK [3987] LOG:  redo done at 0/18CDBA0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-18 11:41:34.409 MSK [3986] LOG:  database system is ready to accept connections
+2022-01-18 11:47:46.597 MSK [3986] LOG:  received smart shutdown request
+2022-01-18 11:47:46.605 MSK [3996] FATAL:  terminating connection due to administrator command
+2022-01-18 11:47:46.606 MSK [3996] LOG:  could not send data to client: Broken pipe
+2022-01-18 11:47:46.608 MSK [3986] LOG:  background worker "logical replication launcher" (PID 3993) exited with exit code 1
+2022-01-18 11:47:46.608 MSK [3988] LOG:  shutting down
+2022-01-18 11:48:54.158 MSK [1774] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-18 11:48:54.158 MSK [1774] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-18 11:48:54.163 MSK [1774] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-18 11:48:54.173 MSK [1775] LOG:  database system shutdown was interrupted; last known up at 2022-01-18 11:47:46 MSK
+2022-01-18 11:48:54.282 MSK [1775] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-18 11:48:54.288 MSK [1775] LOG:  redo starts at 0/18CDC50
+2022-01-18 11:48:54.288 MSK [1775] LOG:  invalid record length at 0/18CDC88: wanted 24, got 0
+2022-01-18 11:48:54.288 MSK [1775] LOG:  redo done at 0/18CDC50 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-18 11:48:54.307 MSK [1774] LOG:  database system is ready to accept connections
+2022-01-18 12:15:31.461 MSK [1788] ERROR:  syntax error at or near "apt" at character 1
+2022-01-18 12:15:31.461 MSK [1788] STATEMENT:  apt install telnet
+	;
+2022-01-18 12:17:35.187 MSK [1788] ERROR:  relation "fn" does not exist at character 13
+2022-01-18 12:17:35.187 MSK [1788] STATEMENT:  insert into fn (x) select random() * 10 from generate_series(1, 10000);
+2022-01-18 12:27:29.919 MSK [1788] ERROR:  syntax error at or near "as" at character 19
+2022-01-18 12:27:29.919 MSK [1788] STATEMENT:  select view roots as 
+	select round(x::numeric, 2) as x from fn where abs(y) < 0.0013 order by x;
+2022-01-18 12:33:23.955 MSK [1976] ERROR:  relation "lab_view.fn" does not exist at character 29
+2022-01-18 12:33:23.955 MSK [1976] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.fn;
+2022-01-18 12:33:23.956 MSK [1976] ERROR:  relation "lab_view.fn_backup" does not exist at character 29
+2022-01-18 12:33:23.956 MSK [1976] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.fn_backup;
+2022-01-18 12:33:23.958 MSK [1976] ERROR:  relation "lab_view.positive" does not exist at character 29
+2022-01-18 12:33:23.958 MSK [1976] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.positive;
+2022-01-18 12:33:23.960 MSK [1976] ERROR:  relation "lab_view.roots" does not exist at character 29
+2022-01-18 12:33:23.960 MSK [1976] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots;
+2022-01-18 12:33:23.961 MSK [1976] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-18 12:33:23.961 MSK [1976] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-19 00:19:25.331 MSK [1788] ERROR:  syntax error at or near "iptables" at character 1
+2022-01-19 00:19:25.331 MSK [1788] STATEMENT:  iptables
+	;
+2022-01-19 00:40:32.356 MSK [1788] ERROR:  syntax error at or near "LIMITE" at character 38
+2022-01-19 00:40:32.356 MSK [1788] STATEMENT:  SELECT x, y FROM positive ORDER BY x LIMITE 20;
+2022-01-19 00:43:02.732 MSK [4819] FATAL:  role "user" does not exist
+2022-01-19 00:43:50.753 MSK [4826] FATAL:  lock file "postmaster.pid" already exists
+2022-01-19 00:43:50.753 MSK [4826] HINT:  Is another postmaster (PID 1774) running in data directory "/home/user/pgdata"?
+2022-01-19 00:45:22.473 MSK [4830] ERROR:  syntax error at or near "user" at character 13
+2022-01-19 00:45:22.473 MSK [4830] STATEMENT:  create role user;
+2022-01-19 00:45:48.289 MSK [4845] FATAL:  database "user" does not exist
+2022-01-19 00:46:16.814 MSK [4850] ERROR:  syntax error at or near "/" at character 1
+2022-01-19 00:46:16.814 MSK [4850] STATEMENT:  /L
+	;
+2022-01-19 00:46:21.999 MSK [4850] ERROR:  syntax error at or near "/" at character 1
+2022-01-19 00:46:21.999 MSK [4850] STATEMENT:  /l;
+2022-01-19 00:47:53.301 MSK [4858] FATAL:  role "root" does not exist
+2022-01-19 11:21:21.596 MSK [1774] LOG:  received smart shutdown request
+2022-01-19 11:21:21.603 MSK [1788] FATAL:  terminating connection due to administrator command
+2022-01-19 11:21:21.603 MSK [1788] LOG:  could not send data to client: Broken pipe
+2022-01-19 11:21:21.604 MSK [4855] FATAL:  terminating connection due to administrator command
+2022-01-19 11:21:21.604 MSK [4855] LOG:  could not send data to client: Broken pipe
+2022-01-19 11:21:21.607 MSK [1774] LOG:  background worker "logical replication launcher" (PID 1781) exited with exit code 1
+2022-01-19 11:21:21.607 MSK [1776] LOG:  shutting down
+2022-01-21 13:23:49.595 MSK [1775] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-21 13:23:49.595 MSK [1775] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-21 13:23:49.602 MSK [1775] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-21 13:23:49.614 MSK [1776] LOG:  database system shutdown was interrupted; last known up at 2022-01-19 11:21:21 MSK
+2022-01-21 13:23:49.740 MSK [1776] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-21 13:23:49.747 MSK [1776] LOG:  redo starts at 0/1B9B208
+2022-01-21 13:23:49.747 MSK [1776] LOG:  invalid record length at 0/1B9B368: wanted 24, got 0
+2022-01-21 13:23:49.747 MSK [1776] LOG:  redo done at 0/1B9B2F0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-21 13:23:49.765 MSK [1775] LOG:  database system is ready to accept connections
+2022-01-21 13:45:17.727 MSK [1785] ERROR:  relation "fn" does not exist at character 41
+2022-01-21 13:45:17.727 MSK [1785] STATEMENT:  create view positive as select x,y from fn where y > 0.0;
+2022-01-21 13:45:40.925 MSK [1880] ERROR:  relation "positive" already exists
+2022-01-21 13:45:40.925 MSK [1880] STATEMENT:  create view positive as select x,y from fn where y > 0.0;
+2022-01-21 13:46:35.107 MSK [1892] ERROR:  relation "lab_view.fn" does not exist at character 29
+2022-01-21 13:46:35.107 MSK [1892] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.fn;
+2022-01-21 13:46:35.109 MSK [1892] ERROR:  relation "lab_view.fn_backup" does not exist at character 29
+2022-01-21 13:46:35.109 MSK [1892] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.fn_backup;
+2022-01-21 13:46:35.110 MSK [1892] ERROR:  relation "lab_view.positive" does not exist at character 29
+2022-01-21 13:46:35.110 MSK [1892] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.positive;
+2022-01-21 13:46:35.112 MSK [1892] ERROR:  relation "lab_view.roots" does not exist at character 29
+2022-01-21 13:46:35.112 MSK [1892] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots;
+2022-01-21 13:46:35.114 MSK [1892] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-21 13:46:35.114 MSK [1892] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-21 14:31:02.207 MSK [1880] ERROR:  syntax error at or near "cerate" at character 1
+2022-01-21 14:31:02.207 MSK [1880] STATEMENT:  cerate rule "_RETURN" as on select to positive_tab do instead select * from fn where y> 0.0;
+2022-01-21 14:38:00.799 MSK [1880] ERROR:  syntax error at or near "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff" at character 1
+2022-01-21 14:38:00.799 MSK [1880] STATEMENT:  fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+	update fn_backup set y = 0;
+2022-01-21 14:38:10.373 MSK [1880] ERROR:  syntax error at or near "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff" at character 1
+2022-01-21 14:38:10.373 MSK [1880] STATEMENT:  fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+	update fn_backup set y = 0;
+2022-01-21 15:18:19.646 MSK [1775] LOG:  received smart shutdown request
+2022-01-21 15:18:19.652 MSK [1880] FATAL:  terminating connection due to administrator command
+2022-01-21 15:18:19.653 MSK [1880] LOG:  could not send data to client: Broken pipe
+2022-01-21 15:18:19.657 MSK [1775] LOG:  background worker "logical replication launcher" (PID 1782) exited with exit code 1
+2022-01-21 15:18:19.657 MSK [1777] LOG:  shutting down
+2022-01-22 11:08:00.026 MSK [1774] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-22 11:08:00.026 MSK [1774] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-22 11:08:00.034 MSK [1774] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-22 11:08:00.044 MSK [1775] LOG:  database system shutdown was interrupted; last known up at 2022-01-21 15:18:19 MSK
+2022-01-22 11:08:00.186 MSK [1775] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-22 11:08:00.194 MSK [1775] LOG:  redo starts at 0/26BA488
+2022-01-22 11:08:00.194 MSK [1775] LOG:  invalid record length at 0/26BA5E8: wanted 24, got 0
+2022-01-22 11:08:00.194 MSK [1775] LOG:  redo done at 0/26BA570 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-22 11:08:00.213 MSK [1774] LOG:  database system is ready to accept connections
+2022-01-22 11:08:35.848 MSK [1787] FATAL:  database "g394-dubago" does not exist
+2022-01-22 11:27:03.150 MSK [1788] ERROR:  relation "pg_extensinons" does not exist at character 15
+2022-01-22 11:27:03.150 MSK [1788] STATEMENT:  select * from pg_extensinons
+	;
+2022-01-22 11:27:15.823 MSK [1788] ERROR:  relation "pg_extensionns" does not exist at character 15
+2022-01-22 11:27:15.823 MSK [1788] STATEMENT:  select * from pg_extensionns
+	;
+2022-01-22 11:27:21.180 MSK [1788] ERROR:  relation "pg_extensions" does not exist at character 15
+2022-01-22 11:27:21.180 MSK [1788] STATEMENT:  select * from pg_extensions
+	;
+2022-01-22 11:30:28.175 MSK [1788] ERROR:  syntax error at or near "gr" at character 76
+2022-01-22 11:30:28.175 MSK [1788] STATEMENT:  create foreign table fn_file (x float, y float) server file_server options gr
+	;
+2022-01-22 11:41:44.409 MSK [1788] ERROR:  COPY format "scv" not recognized
+2022-01-22 11:41:44.409 MSK [1788] STATEMENT:  create foreign table fn_file (x float, y float) server file_server options (filename '/home/user/sine.csv', format 'scv');
+2022-01-22 11:46:25.372 MSK [1788] ERROR:  relation "fn_file" already exists
+2022-01-22 11:46:25.372 MSK [1788] STATEMENT:  create foreign table fn_file (x float, y float) server file_server options (filename '/home/user/sine.csv', format 'csv');
+2022-01-22 11:46:56.550 MSK [1788] ERROR:  syntax error at or near "drpop" at character 1
+2022-01-22 11:46:56.550 MSK [1788] STATEMENT:  drpop foreign table fn_file
+	;
+2022-01-22 11:54:12.704 MSK [1788] ERROR:  relation "fn_file" already exists
+2022-01-22 11:54:12.704 MSK [1788] STATEMENT:  create foreign table fn_file (x float, y float) server file_server options (filename '/home/user/sine.csv', format 'csv');
+2022-01-22 11:56:31.577 MSK [1788] ERROR:  syntax error at or near "matherialized" at character 8
+2022-01-22 11:56:31.577 MSK [1788] STATEMENT:  create matherialized view fn_view as select * from fn_file where x > 10.0 with no data;
+2022-01-22 11:57:24.515 MSK [1788] ERROR:  materialized view "fn_view" has not been populated
+2022-01-22 11:57:24.515 MSK [1788] HINT:  Use the REFRESH MATERIALIZED VIEW command.
+2022-01-22 11:57:24.515 MSK [1788] STATEMENT:  select * from fn_view;
+2022-01-22 12:11:36.518 MSK [1788] ERROR:  relation "posisitive" does not exist at character 13
+2022-01-22 12:11:36.518 MSK [1788] STATEMENT:  insert into posisitive (x) select 10 + random() * 10 from generate_series(1, 10000)
+	;
+2022-01-22 12:13:11.307 MSK [1788] ERROR:  cannot drop foreign table fn_file because other objects depend on it
+2022-01-22 12:13:11.307 MSK [1788] DETAIL:  materialized view fn_view depends on foreign table fn_file
+2022-01-22 12:13:11.307 MSK [1788] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2022-01-22 12:13:11.307 MSK [1788] STATEMENT:  drop foreign table fn_file 
+	;
+2022-01-22 12:18:10.620 MSK [1788] ERROR:  invalid input syntax for type double precision: "None"
+2022-01-22 12:18:10.620 MSK [1788] CONTEXT:  COPY fn_file, line 10001, column y: "None"
+2022-01-22 12:18:10.620 MSK [1788] STATEMENT:  refresh materialized view fn_view;
+2022-01-22 12:22:25.389 MSK [1788] ERROR:  invalid input syntax for type double precision: "None"
+2022-01-22 12:22:25.389 MSK [1788] CONTEXT:  COPY fn_file, line 10001, column y: "None"
+2022-01-22 12:22:25.389 MSK [1788] STATEMENT:  refresh materialized view fn_view;
+2022-01-22 12:26:39.998 MSK [1788] ERROR:  duplicate key value violates unique constraint "pk_x"
+2022-01-22 12:26:39.998 MSK [1788] DETAIL:  Key (x)=(9.316117795557126) already exists.
+2022-01-22 12:26:39.998 MSK [1788] STATEMENT:  insert into fn select x,y from fn_backup
+	;
+2022-01-22 12:31:23.951 MSK [1788] ERROR:  relation "fn_file" already exists
+2022-01-22 12:31:23.951 MSK [1788] STATEMENT:  create foreign table fn_file (x float, y float) server file_server options (filename '/home/user/sine.csv', format 'csv');
+2022-01-22 12:49:10.581 MSK [1788] ERROR:  syntax error at or near "coord" at character 26
+2022-01-22 12:49:10.581 MSK [1788] STATEMENT:  create unique index idx_ coord on fn_all using btee (x);
+2022-01-22 12:49:23.379 MSK [1788] ERROR:  access method "btee" does not exist
+2022-01-22 12:49:23.379 MSK [1788] STATEMENT:  create unique index idx_coord on fn_all using btee (x);
+2022-01-22 13:00:10.806 MSK [1788] ERROR:  syntax error at or near "alter" at character 44
+2022-01-22 13:00:10.806 MSK [1788] STATEMENT:  alter table fn_backup set schema lab_view 
+	alter tab
+	pwd
+	alter table;
+2022-01-24 14:53:18.475 MSK [13923] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-24 14:53:18.475 MSK [13923] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-24 14:57:45.053 MSK [1788] ERROR:  syntax error at or near ";" at character 24
+2022-01-24 14:57:45.053 MSK [1788] STATEMENT:  create view roots_group;
+2022-01-24 14:57:55.829 MSK [1788] ERROR:  syntax error at or near ";" at character 24
+2022-01-24 14:57:55.829 MSK [1788] STATEMENT:  create view roots_group;
+2022-01-24 14:57:59.468 MSK [1788] ERROR:  syntax error at or near ";" at character 25
+2022-01-24 14:57:59.468 MSK [1788] STATEMENT:  create view roots_group
+	;
+2022-01-24 16:20:22.623 MSK [1788] ERROR:  syntax error at or near ";" at character 24
+2022-01-24 16:20:22.623 MSK [1788] STATEMENT:  create view roots_group;
+2022-01-24 16:20:30.200 MSK [14273] FATAL:  lock file "postmaster.pid" already exists
+2022-01-24 16:20:30.200 MSK [14273] HINT:  Is another postmaster (PID 1774) running in data directory "/home/user/pgdata"?
+2022-01-24 16:20:32.671 MSK [1788] ERROR:  syntax error at or near ";" at character 24
+2022-01-24 16:20:32.671 MSK [1788] STATEMENT:  create view roots_group;
+2022-01-24 16:22:20.117 MSK [1788] ERROR:  relation "fn" does not exist at character 42
+2022-01-24 16:22:20.117 MSK [1788] STATEMENT:  create view roots_group as select * from fn;
+2022-01-24 16:22:51.258 MSK [14288] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-24 16:22:51.258 MSK [14288] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-24 16:23:38.782 MSK [1788] ERROR:  relation "x" does not exist at character 42
+2022-01-24 16:23:38.782 MSK [1788] STATEMENT:  create view roots_group as select * from x,y fn;
+2022-01-24 16:23:43.470 MSK [1788] ERROR:  relation "x" does not exist at character 42
+2022-01-24 16:23:43.470 MSK [1788] STATEMENT:  create view roots_group as select * from x, y fn;
+2022-01-24 16:23:57.993 MSK [1788] ERROR:  relation "fn" does not exist at character 42
+2022-01-24 16:23:57.993 MSK [1788] STATEMENT:  create view roots_group as select * from fn;
+2022-01-24 16:24:34.199 MSK [14302] FATAL:  database "lab_view" does not exist
+2022-01-24 16:35:09.175 MSK [1788] ERROR:  relation "lab_wiev.positive" does not exist at character 15
+2022-01-24 16:35:09.175 MSK [1788] STATEMENT:  select * from lab_wiev.positive;
+2022-01-24 16:37:37.076 MSK [1788] ERROR:  syntax error at or near "(" at character 13
+2022-01-24 16:37:37.076 MSK [1788] STATEMENT:  insert into (x,y)  lab_view.positive values (2.64000000, 0.470000000);
+2022-01-24 16:39:10.317 MSK [14371] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-24 16:39:10.317 MSK [14371] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-24 16:39:25.961 MSK [1788] ERROR:  duplicate key value violates unique constraint "pk_x"
+2022-01-24 16:39:25.961 MSK [1788] DETAIL:  Key (x)=(2.64) already exists.
+2022-01-24 16:39:25.961 MSK [1788] STATEMENT:  insert into  lab_view.positive (x,y) values (2.64000000, 0.470000000);
+2022-01-24 16:39:35.020 MSK [1788] ERROR:  duplicate key value violates unique constraint "pk_x"
+2022-01-24 16:39:35.020 MSK [1788] DETAIL:  Key (x)=(2.64) already exists.
+2022-01-24 16:39:35.020 MSK [1788] STATEMENT:  insert into  lab_view.positive (x,y) values (2.640000000, 0.470000000);
+2022-01-24 16:41:49.953 MSK [14387] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-24 16:41:49.953 MSK [14387] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-24 16:42:52.302 MSK [1788] ERROR:  INSERT has more target columns than expressions at character 35
+2022-01-24 16:42:52.302 MSK [1788] HINT:  The insertion source is a row expression containing the same number of columns expected by the INSERT. Did you accidentally use extra parentheses?
+2022-01-24 16:42:52.302 MSK [1788] STATEMENT:  insert into  lab_view.positive (x,y) select (x,y) from lab_view.fn;
+2022-01-24 16:45:41.823 MSK [1788] ERROR:  INSERT has more target columns than expressions at character 35
+2022-01-24 16:45:41.823 MSK [1788] HINT:  The insertion source is a row expression containing the same number of columns expected by the INSERT. Did you accidentally use extra parentheses?
+2022-01-24 16:45:41.823 MSK [1788] STATEMENT:  insert into  lab_view.positive (x,y) select (x,y) from lab_view.fn_backup;
+2022-01-24 16:47:09.747 MSK [1788] ERROR:  duplicate key value violates unique constraint "pk_x"
+2022-01-24 16:47:09.747 MSK [1788] DETAIL:  Key (x)=(9.316117795557126) already exists.
+2022-01-24 16:47:09.747 MSK [1788] STATEMENT:  insert into  lab_view.positive (x,y) select *  from lab_view.fn_backup;
+2022-01-24 16:48:24.875 MSK [1788] ERROR:  INSERT has more target columns than expressions at character 35
+2022-01-24 16:48:24.875 MSK [1788] STATEMENT:  insert into  lab_view.positive (x,y) select random() * 10 from generate_series(1, 10000);
+2022-01-24 16:49:52.018 MSK [1788] ERROR:  INSERT has more target columns than expressions at character 30
+2022-01-24 16:49:52.018 MSK [1788] STATEMENT:  insert into  lab_view.fn (x, y) select random() * 10 from generate_series(1, 10000);
+2022-01-24 16:51:25.545 MSK [1788] ERROR:  relation "fn" does not exist at character 8
+2022-01-24 16:51:25.545 MSK [1788] STATEMENT:  update fn set y =sin(x);
+2022-01-24 16:51:41.790 MSK [14441] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-24 16:51:41.790 MSK [14441] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-24 16:53:13.423 MSK [1788] ERROR:  relation "fn" does not exist at character 13
+2022-01-24 16:53:13.423 MSK [1788] STATEMENT:  delete from fn;
+2022-01-24 16:53:41.169 MSK [14470] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-24 16:53:41.169 MSK [14470] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-24 16:55:11.725 MSK [14484] ERROR:  relation "lab_view.roots_group" does not exist at character 29
+2022-01-24 16:55:11.725 MSK [14484] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_view.roots_group;
+2022-01-24 17:58:44.366 MSK [1788] ERROR:  syntax error at or near "detete" at character 1
+2022-01-24 17:58:44.366 MSK [1788] STATEMENT:  detete from lab_view.fn where x=5.475857168587055
+	;
+2022-01-24 18:08:50.295 MSK [1788] ERROR:  relation "fn" does not exist at character 13
+2022-01-24 18:08:50.295 MSK [1788] STATEMENT:  delete from fn;
+2022-01-25 09:17:52.639 MSK [1774] LOG:  received smart shutdown request
+2022-01-25 09:17:52.650 MSK [1774] LOG:  background worker "logical replication launcher" (PID 1781) exited with exit code 1
+2022-01-25 09:17:52.650 MSK [1776] LOG:  shutting down
+2022-01-25 11:53:01.655 MSK [1774] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-25 11:53:01.656 MSK [1774] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-25 11:53:01.662 MSK [1774] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-25 11:53:01.674 MSK [1775] LOG:  database system shutdown was interrupted; last known up at 2022-01-25 09:17:52 MSK
+2022-01-25 11:53:01.818 MSK [1775] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-25 11:53:01.824 MSK [1775] LOG:  redo starts at 0/6FCCE40
+2022-01-25 11:53:01.824 MSK [1775] LOG:  invalid record length at 0/6FCCF28: wanted 24, got 0
+2022-01-25 11:53:01.824 MSK [1775] LOG:  redo done at 0/6FCCEF0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-25 11:53:01.842 MSK [1774] LOG:  database system is ready to accept connections
+2022-01-25 11:53:28.658 MSK [1786] ERROR:  syntax error at or near "schema1" at character 8
+2022-01-25 11:53:28.658 MSK [1786] STATEMENT:  create schema1;
+2022-01-25 11:56:24.631 MSK [1786] ERROR:  column "userid" does not exist at character 60
+2022-01-25 11:56:24.631 MSK [1786] HINT:  Perhaps you meant to reference the column "pg_user.usesysid" or the column "pg_user.userepl".
+2022-01-25 11:56:24.631 MSK [1786] STATEMENT:  select nspname, username from pg_namespace join pg_user on userid = nspower;
+2022-01-25 11:56:51.672 MSK [1786] ERROR:  column "nspower" does not exist at character 71
+2022-01-25 11:56:51.672 MSK [1786] HINT:  Perhaps you meant to reference the column "pg_namespace.nspowner".
+2022-01-25 11:56:51.672 MSK [1786] STATEMENT:  select nspname, username from pg_namespace join pg_user on usesysid = nspower;
+2022-01-25 11:57:04.692 MSK [1786] ERROR:  column "username" does not exist at character 17
+2022-01-25 11:57:04.692 MSK [1786] HINT:  Perhaps you meant to reference the column "pg_user.usename".
+2022-01-25 11:57:04.692 MSK [1786] STATEMENT:  select nspname, username from pg_namespace join pg_user on usesysid = nspowner;
+2022-01-25 12:03:15.486 MSK [1815] ERROR:  syntax error at or near "/" at character 1
+2022-01-25 12:03:15.486 MSK [1815] STATEMENT:  /dn
+	;
+2022-01-25 12:14:54.879 MSK [1815] ERROR:  relation "t1" already exists
+2022-01-25 12:14:54.879 MSK [1815] STATEMENT:  create table t1 (z integer);
+2022-01-25 12:17:29.876 MSK [1815] ERROR:  column "schemname" does not exist at character 8
+2022-01-25 12:17:29.876 MSK [1815] HINT:  Perhaps you meant to reference the column "pg_tables.schemaname".
+2022-01-25 12:17:29.876 MSK [1815] STATEMENT:  select schemname , tablename from pg_tables where tableowner = 'postgres'
+	;
+2022-01-25 12:25:09.589 MSK [1774] LOG:  received smart shutdown request
+2022-01-25 12:25:09.598 MSK [1905] FATAL:  terminating connection due to administrator command
+2022-01-25 12:25:09.598 MSK [1905] LOG:  could not send data to client: Broken pipe
+2022-01-25 12:25:09.601 MSK [1774] LOG:  background worker "logical replication launcher" (PID 1781) exited with exit code 1
+2022-01-25 12:25:09.601 MSK [1776] LOG:  shutting down
+2022-01-25 12:27:35.188 MSK [1773] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-25 12:27:35.189 MSK [1773] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-25 12:27:35.194 MSK [1773] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-25 12:27:35.204 MSK [1774] LOG:  database system shutdown was interrupted; last known up at 2022-01-25 12:25:09 MSK
+2022-01-25 12:27:35.340 MSK [1774] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-25 12:27:35.346 MSK [1774] LOG:  redo starts at 0/701A6F0
+2022-01-25 12:27:35.346 MSK [1774] LOG:  invalid record length at 0/701A7D8: wanted 24, got 0
+2022-01-25 12:27:35.346 MSK [1774] LOG:  redo done at 0/701A7A0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-25 12:27:35.367 MSK [1773] LOG:  database system is ready to accept connections
+2022-01-25 12:31:33.874 MSK [1783] ERROR:  relation "t1" does not exist
+2022-01-25 12:31:33.874 MSK [1783] STATEMENT:  ALTER TABLE t1 SET SCHEMA schema1;
+2022-01-25 12:33:33.409 MSK [1805] FATAL:  database "g394-gubyago" does not exist
+2022-01-25 12:33:45.706 MSK [1807] FATAL:  database "g394-Dubyago" does not exist
+2022-01-25 12:48:50.085 MSK [1808] ERROR:  relation "t1" does not exist at character 15
+2022-01-25 12:48:50.085 MSK [1808] STATEMENT:  SELECT * FROM t1;
+2022-01-25 12:57:38.210 MSK [1808] ERROR:  relation "pg_stat_tables" does not exist at character 46
+2022-01-25 12:57:38.210 MSK [1808] STATEMENT:  SELECT schemaname, realname, n_live_tup FROM pg_stat_tables;
+2022-01-25 12:57:58.411 MSK [1808] ERROR:  column "realname" does not exist at character 20
+2022-01-25 12:57:58.411 MSK [1808] HINT:  Perhaps you meant to reference the column "pg_stat_user_tables.relname".
+2022-01-25 12:57:58.411 MSK [1808] STATEMENT:  SELECT schemaname, realname, n_live_tup FROM pg_stat_user_tables;
+2022-01-25 13:22:08.683 MSK [2012] ERROR:  relation "lab_schema1.tab1" does not exist at character 29
+2022-01-25 13:22:08.683 MSK [2012] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema1.tab1;
+2022-01-25 13:22:08.684 MSK [2012] ERROR:  relation "lab_schema1.tab1" does not exist at character 29
+2022-01-25 13:22:08.684 MSK [2012] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema1.tab1;
+2022-01-25 13:22:08.685 MSK [2012] ERROR:  relation "lab_schema2.tab2" does not exist at character 29
+2022-01-25 13:22:08.685 MSK [2012] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema2.tab2;
+2022-01-25 13:22:08.686 MSK [2012] ERROR:  relation "lab_schema2.tab2" does not exist at character 29
+2022-01-25 13:22:08.686 MSK [2012] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema2.tab2;
+2022-01-25 13:22:08.687 MSK [2012] ERROR:  relation "lab_schema1.tab1" does not exist at character 38
+2022-01-25 13:22:08.687 MSK [2012] STATEMENT:  SELECT MIN(z) AS a, MAX(z) AS b FROM lab_schema1.tab1;
+2022-01-25 13:22:08.688 MSK [2012] ERROR:  relation "lab_schema1.tab2" does not exist at character 38
+2022-01-25 13:22:08.688 MSK [2012] STATEMENT:  SELECT MIN(w) AS a, MAX(w) AS b FROM lab_schema1.tab2;
+2022-01-25 13:22:08.689 MSK [2012] ERROR:  relation "lab_schema2.tab1" does not exist at character 38
+2022-01-25 13:22:08.689 MSK [2012] STATEMENT:  SELECT MIN(x) AS a, MAX(x) AS b FROM lab_schema2.tab1;
+2022-01-25 13:22:08.691 MSK [2012] ERROR:  relation "lab_schema2.tab2" does not exist at character 38
+2022-01-25 13:22:08.691 MSK [2012] STATEMENT:  SELECT MIN(y) AS a, MAX(y) AS b FROM lab_schema2.tab2;
+2022-01-25 13:22:52.422 MSK [1808] ERROR:  syntax error at or near "rename" at character 1
+2022-01-25 13:22:52.422 MSK [1808] STATEMENT:  rename 
+	;
+2022-01-25 14:29:38.622 MSK [1773] LOG:  received smart shutdown request
+2022-01-25 14:29:38.640 MSK [1808] FATAL:  terminating connection due to administrator command
+2022-01-25 14:29:38.640 MSK [1808] LOG:  could not send data to client: Broken pipe
+2022-01-25 14:29:38.642 MSK [1773] LOG:  background worker "logical replication launcher" (PID 1780) exited with exit code 1
+2022-01-28 17:00:09.970 MSK [2438] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-01-28 17:00:09.971 MSK [2438] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-28 17:00:09.976 MSK [2438] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-01-28 17:00:09.988 MSK [2439] LOG:  database system was interrupted; last known up at 2022-01-25 13:02:35 MSK
+2022-01-28 17:00:10.157 MSK [2439] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-01-28 17:00:10.163 MSK [2439] LOG:  redo starts at 0/7056E48
+2022-01-28 17:00:10.164 MSK [2439] LOG:  invalid record length at 0/7056F30: wanted 24, got 0
+2022-01-28 17:00:10.164 MSK [2439] LOG:  redo done at 0/7056EF8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-01-28 17:00:10.184 MSK [2438] LOG:  database system is ready to accept connections
+2022-01-28 17:00:44.493 MSK [2459] ERROR:  relation "lab_schema1.tab1" does not exist at character 29
+2022-01-28 17:00:44.493 MSK [2459] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema1.tab1;
+2022-01-28 17:00:44.496 MSK [2459] ERROR:  relation "lab_schema1.tab1" does not exist at character 29
+2022-01-28 17:00:44.496 MSK [2459] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema1.tab1;
+2022-01-28 17:00:44.497 MSK [2459] ERROR:  relation "lab_schema2.tab2" does not exist at character 29
+2022-01-28 17:00:44.497 MSK [2459] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema2.tab2;
+2022-01-28 17:00:44.499 MSK [2459] ERROR:  relation "lab_schema2.tab2" does not exist at character 29
+2022-01-28 17:00:44.499 MSK [2459] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema2.tab2;
+2022-01-28 17:00:44.501 MSK [2459] ERROR:  relation "lab_schema1.tab1" does not exist at character 38
+2022-01-28 17:00:44.501 MSK [2459] STATEMENT:  SELECT MIN(z) AS a, MAX(z) AS b FROM lab_schema1.tab1;
+2022-01-28 17:00:44.503 MSK [2459] ERROR:  relation "lab_schema1.tab2" does not exist at character 38
+2022-01-28 17:00:44.503 MSK [2459] STATEMENT:  SELECT MIN(w) AS a, MAX(w) AS b FROM lab_schema1.tab2;
+2022-01-28 17:00:44.505 MSK [2459] ERROR:  relation "lab_schema2.tab1" does not exist at character 38
+2022-01-28 17:00:44.505 MSK [2459] STATEMENT:  SELECT MIN(x) AS a, MAX(x) AS b FROM lab_schema2.tab1;
+2022-01-28 17:00:44.507 MSK [2459] ERROR:  relation "lab_schema2.tab2" does not exist at character 38
+2022-01-28 17:00:44.507 MSK [2459] STATEMENT:  SELECT MIN(y) AS a, MAX(y) AS b FROM lab_schema2.tab2;
+2022-01-28 17:01:27.110 MSK [2470] ERROR:  relation "lab_schema1.tab1" does not exist at character 29
+2022-01-28 17:01:27.110 MSK [2470] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema1.tab1;
+2022-01-28 17:01:27.112 MSK [2470] ERROR:  relation "lab_schema1.tab1" does not exist at character 29
+2022-01-28 17:01:27.112 MSK [2470] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema1.tab1;
+2022-01-28 17:01:27.115 MSK [2470] ERROR:  relation "lab_schema2.tab2" does not exist at character 29
+2022-01-28 17:01:27.115 MSK [2470] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema2.tab2;
+2022-01-28 17:01:27.117 MSK [2470] ERROR:  relation "lab_schema2.tab2" does not exist at character 29
+2022-01-28 17:01:27.117 MSK [2470] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema2.tab2;
+2022-01-28 17:01:27.119 MSK [2470] ERROR:  relation "lab_schema1.tab1" does not exist at character 38
+2022-01-28 17:01:27.119 MSK [2470] STATEMENT:  SELECT MIN(z) AS a, MAX(z) AS b FROM lab_schema1.tab1;
+2022-01-28 17:01:27.121 MSK [2470] ERROR:  relation "lab_schema1.tab2" does not exist at character 38
+2022-01-28 17:01:27.121 MSK [2470] STATEMENT:  SELECT MIN(w) AS a, MAX(w) AS b FROM lab_schema1.tab2;
+2022-01-28 17:01:27.123 MSK [2470] ERROR:  relation "lab_schema2.tab1" does not exist at character 38
+2022-01-28 17:01:27.123 MSK [2470] STATEMENT:  SELECT MIN(x) AS a, MAX(x) AS b FROM lab_schema2.tab1;
+2022-01-28 17:01:27.125 MSK [2470] ERROR:  relation "lab_schema2.tab2" does not exist at character 38
+2022-01-28 17:01:27.125 MSK [2470] STATEMENT:  SELECT MIN(y) AS a, MAX(y) AS b FROM lab_schema2.tab2;
+2022-01-28 17:04:08.936 MSK [2494] ERROR:  relation "lab_schema2.tab2" does not exist at character 29
+2022-01-28 17:04:08.936 MSK [2494] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema2.tab2;
+2022-01-28 17:04:08.939 MSK [2494] ERROR:  relation "lab_schema2.tab2" does not exist at character 29
+2022-01-28 17:04:08.939 MSK [2494] STATEMENT:  SELECT COUNT(*) AS cnt FROM lab_schema2.tab2;
+2022-01-28 17:04:08.944 MSK [2494] ERROR:  relation "lab_schema1.tab2" does not exist at character 38
+2022-01-28 17:04:08.944 MSK [2494] STATEMENT:  SELECT MIN(w) AS a, MAX(w) AS b FROM lab_schema1.tab2;
+2022-01-28 17:04:08.946 MSK [2494] ERROR:  relation "lab_schema2.tab1" does not exist at character 38
+2022-01-28 17:04:08.946 MSK [2494] STATEMENT:  SELECT MIN(x) AS a, MAX(x) AS b FROM lab_schema2.tab1;
+2022-01-28 17:04:08.947 MSK [2494] ERROR:  relation "lab_schema2.tab2" does not exist at character 38
+2022-01-28 17:04:08.947 MSK [2494] STATEMENT:  SELECT MIN(y) AS a, MAX(y) AS b FROM lab_schema2.tab2;
+2022-01-28 17:05:21.186 MSK [2508] ERROR:  relation "lab_schema1.tab2" does not exist at character 38
+2022-01-28 17:05:21.186 MSK [2508] STATEMENT:  SELECT MIN(w) AS a, MAX(w) AS b FROM lab_schema1.tab2;
+2022-01-28 17:05:21.189 MSK [2508] ERROR:  relation "lab_schema2.tab1" does not exist at character 38
+2022-01-28 17:05:21.189 MSK [2508] STATEMENT:  SELECT MIN(x) AS a, MAX(x) AS b FROM lab_schema2.tab1;
+2022-01-28 17:05:51.531 MSK [2449] ERROR:  relation "tab2" already exists
+2022-01-28 17:05:51.531 MSK [2449] STATEMENT:  alter table lab_schema2.t1 rename to tab2;
+2022-01-28 17:06:10.169 MSK [2519] ERROR:  relation "lab_schema2.tab1" does not exist at character 38
+2022-01-28 17:06:10.169 MSK [2519] STATEMENT:  SELECT MIN(x) AS a, MAX(x) AS b FROM lab_schema2.tab1;
+2022-01-28 17:19:27.416 MSK [2449] ERROR:  cannot drop schema lab_schema2 because other objects depend on it
+2022-01-28 17:19:27.416 MSK [2449] DETAIL:  table lab_schema2.tab1 depends on schema lab_schema2
+	table lab_schema2.tab2 depends on schema lab_schema2
+2022-01-28 17:19:27.416 MSK [2449] HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2022-01-28 17:19:27.416 MSK [2449] STATEMENT:  drop schema lab_schema2
+	;
+2022-01-28 17:27:03.437 MSK [2449] ERROR:  relation "tab1" does not exist
+2022-01-28 17:27:03.437 MSK [2449] STATEMENT:  alter table tab1 set schema public;
+2022-01-28 17:27:36.022 MSK [2449] ERROR:  relation "tab1" does not exist
+2022-01-28 17:27:36.022 MSK [2449] STATEMENT:  alter table tab1 set schema public;
+2022-01-28 17:30:40.332 MSK [2449] ERROR:  relation "tab1" does not exist at character 15
+2022-01-28 17:30:40.332 MSK [2449] STATEMENT:  select * from tab1;
+2022-01-28 17:32:19.249 MSK [2449] ERROR:  syntax error at or near "drop" at character 17
+2022-01-28 17:32:19.249 MSK [2449] STATEMENT:  drop table tab1
+	drop table tab2
+	;
+2022-02-04 13:55:09.614 MSK [2438] LOG:  received smart shutdown request
+2022-02-04 13:55:09.623 MSK [2449] FATAL:  terminating connection due to administrator command
+2022-02-04 13:55:09.623 MSK [2449] LOG:  could not send data to client: Broken pipe
+2022-02-15 11:29:26.315 MSK [1795] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-15 11:29:26.315 MSK [1795] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-15 11:29:26.324 MSK [1795] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-15 11:29:26.343 MSK [1796] LOG:  database system was interrupted; last known up at 2022-01-28 17:35:12 MSK
+2022-02-15 11:29:26.484 MSK [1796] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-15 11:29:26.491 MSK [1796] LOG:  redo starts at 0/70984E8
+2022-02-15 11:29:26.491 MSK [1796] LOG:  invalid record length at 0/70985D0: wanted 24, got 0
+2022-02-15 11:29:26.491 MSK [1796] LOG:  redo done at 0/7098598 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-15 11:29:26.519 MSK [1795] LOG:  database system is ready to accept connections
+2022-02-15 11:33:26.697 MSK [1807] ERROR:  schema "making_sample" already exists
+2022-02-15 11:33:26.697 MSK [1807] STATEMENT:  create schema making_sample;
+2022-02-15 11:33:53.298 MSK [1807] ERROR:  schema "macking_sample" does not exist
+2022-02-15 11:33:53.298 MSK [1807] STATEMENT:  drop schema macking_sample;
+2022-02-15 11:34:28.743 MSK [1821] FATAL:  database "g394_dubago" does not exist
+2022-02-15 11:34:39.870 MSK [1822] FATAL:  database "g394_dubyago" does not exist
+2022-02-15 11:38:16.128 MSK [1824] ERROR:  unrecognized configuration parameter "serach_path"
+2022-02-15 11:38:16.128 MSK [1824] STATEMENT:  set serach_path = 'marking_sample';
+2022-02-15 11:42:52.296 MSK [1824] ERROR:  unrecognized configuration parameter "searchch_path"
+2022-02-15 11:42:52.296 MSK [1824] STATEMENT:  set searchch_path = 'marking_sample';
+2022-02-15 11:59:39.861 MSK [1824] ERROR:  syntax error at or near "key" at character 16
+2022-02-15 11:59:39.861 MSK [1824] STATEMENT:  create foreign key 
+	;
+2022-02-15 12:11:14.472 MSK [1824] ERROR:  syntax error at or near "referencrs" at character 62
+2022-02-15 12:11:14.472 MSK [1824] STATEMENT:  ALTER TABLE mark add constraint mark_stud foreign key (stud) referencrs (id);
+2022-02-15 12:11:23.046 MSK [1824] ERROR:  syntax error at or near "(" at character 73
+2022-02-15 12:11:23.046 MSK [1824] STATEMENT:  ALTER TABLE mark add constraint mark_stud foreign key (stud) references (id);
+2022-02-15 12:14:30.255 MSK [1824] ERROR:  relation "discipline" does not exist
+2022-02-15 12:14:30.255 MSK [1824] STATEMENT:  ALTER TABLE exam add constraint exam_disc foreign key (id) references discipline(id);
+2022-02-15 12:15:52.341 MSK [1824] ERROR:  table "dicipllne" does not exist
+2022-02-15 12:15:52.341 MSK [1824] STATEMENT:  drop table dicipllne;
+2022-02-15 12:28:23.335 MSK [1824] ERROR:  column "sescr" of relation "discipline" does not exist at character 29
+2022-02-15 12:28:23.335 MSK [1824] STATEMENT:  insert into discipline (id, sescr) values (nextval('discip_id'), 'Math');
+2022-02-15 12:50:13.590 MSK [1795] LOG:  received smart shutdown request
+2022-02-15 12:50:13.597 MSK [1824] FATAL:  terminating connection due to administrator command
+2022-02-15 12:50:13.597 MSK [1824] LOG:  could not send data to client: Broken pipe
+2022-02-15 12:50:13.599 MSK [1795] LOG:  background worker "logical replication launcher" (PID 1802) exited with exit code 1
+2022-02-15 12:50:13.600 MSK [1797] LOG:  shutting down
+2022-02-18 14:24:53.256 MSK [1795] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-18 14:24:53.257 MSK [1795] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-18 14:24:53.262 MSK [1795] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-18 14:24:53.272 MSK [1796] LOG:  database system shutdown was interrupted; last known up at 2022-02-15 12:50:13 MSK
+2022-02-18 14:24:53.415 MSK [1796] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-18 14:24:53.421 MSK [1796] LOG:  redo starts at 0/717DCC8
+2022-02-18 14:24:53.421 MSK [1796] LOG:  invalid record length at 0/717DDB0: wanted 24, got 0
+2022-02-18 14:24:53.421 MSK [1796] LOG:  redo done at 0/717DD78 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-18 14:24:53.440 MSK [1795] LOG:  database system is ready to accept connections
+2022-02-18 14:25:13.734 MSK [1805] ERROR:  syntax error at or near "sequene" at character 8
+2022-02-18 14:25:13.734 MSK [1805] STATEMENT:  create sequene 
+	;
+2022-02-18 14:34:02.947 MSK [1806] ERROR:  syntax error at or near "1" at character 220
+2022-02-18 14:34:02.947 MSK [1806] STATEMENT:  insert into exam (id, discip, ts) select 
+	 nextval('exam_id'),
+	1+random() * (5-1), timestamp '2021-09-01 00:00:00' + random() * ( timestamp '2022-07-01  00:00:00' - timestamp '2022-09-01 00:00:00')
+	from generate series(1,20);
+2022-02-18 14:34:14.877 MSK [1806] ERROR:  syntax error at or near "1" at character 220
+2022-02-18 14:34:14.877 MSK [1806] STATEMENT:  insert into exam (id, discip, ts) select 
+	 nextval('exam_id'),
+	1+random() * (5-1), timestamp '2021-09-01 00:00:00' + random() * ( timestamp '2022-07-01  00:00:00' - timestamp '2022-09-01 00:00:00')
+	from generate series(1, 20);
+2022-02-18 14:34:36.083 MSK [1806] ERROR:  syntax error at or near "1" at character 221
+2022-02-18 14:34:36.083 MSK [1806] STATEMENT:  insert into exam (id, discip, ts) select 
+	 nextval('exam_id'),
+	1+random() * (5-1), timestamp '2021-09-01 00:00:00' + random() * ( timestamp '2022-07-01  00:00:00' - timestamp '2022-09-01 00:00:00')
+	from generate series (1, 20);
+2022-02-18 14:36:27.037 MSK [1806] ERROR:  relation "exam" does not exist at character 13
+2022-02-18 14:36:27.037 MSK [1806] STATEMENT:  insert into exam (id, discip, ts) select 
+	 nextval('exam_id'),
+	1+random() * (5-1), timestamp '2021-09-01 00:00:00' + random() * ( timestamp '2022-07-01  00:00:00' - timestamp '2022-09-01 00:00:00')
+	from generate_series(1, 20);
+2022-02-18 14:37:01.542 MSK [1806] ERROR:  relation "exam_id" does not exist at character 52
+2022-02-18 14:37:01.542 MSK [1806] STATEMENT:  insert into exam (id, discip, ts) select 
+	 nextval('exam_id'),
+	1+random() * (5-1), timestamp '2021-09-01 00:00:00' + random() * ( timestamp '2022-07-01  00:00:00' - timestamp '2022-09-01 00:00:00')
+	from generate_series(1, 20);
+2022-02-18 14:37:22.341 MSK [1806] ERROR:  insert or update on table "exam" violates foreign key constraint "exam_disc"
+2022-02-18 14:37:22.341 MSK [1806] DETAIL:  Key (id)=(6) is not present in table "discipline".
+2022-02-18 14:37:22.341 MSK [1806] STATEMENT:  insert into exam (id, discip, ts) select 
+	 nextval('exam_id'),
+	1+random() * (5-1), timestamp '2021-09-01 00:00:00' + random() * ( timestamp '2022-07-01  00:00:00' - timestamp '2022-09-01 00:00:00')
+	from generate_series(1, 20);
+2022-02-18 15:51:55.612 MSK [1795] LOG:  received smart shutdown request
+2022-02-18 15:51:55.616 MSK [1806] FATAL:  terminating connection due to administrator command
+2022-02-18 15:51:55.616 MSK [1806] LOG:  could not send data to client: Broken pipe
+2022-02-18 15:51:55.628 MSK [1795] LOG:  background worker "logical replication launcher" (PID 1802) exited with exit code 1
+2022-02-18 15:51:55.628 MSK [1797] LOG:  shutting down
+2022-02-24 14:36:34.030 MSK [1933] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-24 14:36:34.031 MSK [1933] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-24 14:36:34.036 MSK [1933] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-24 14:36:34.051 MSK [1934] LOG:  database system shutdown was interrupted; last known up at 2022-02-18 15:51:55 MSK
+2022-02-24 14:36:34.220 MSK [1934] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-24 14:36:34.229 MSK [1934] LOG:  redo starts at 0/71B06B0
+2022-02-24 14:36:34.229 MSK [1934] LOG:  invalid record length at 0/71B0798: wanted 24, got 0
+2022-02-24 14:36:34.229 MSK [1934] LOG:  redo done at 0/71B0760 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-24 14:36:34.250 MSK [1933] LOG:  database system is ready to accept connections
+2022-02-24 14:37:10.943 MSK [1944] ERROR:  syntax error at or near "pg_dump" at character 1
+2022-02-24 14:37:10.943 MSK [1944] STATEMENT:  pg_dump
+	;
+2022-02-24 18:25:00.466 MSK [2622] FATAL:  database "g394_dubyago" does not exist

@@ -1,0 +1,18 @@
+[begin] (menu)
+[encoding] {UTF-8}
+      [exec] (screenshot) {convert xwd:/run/Xvfb_screen0 /home/user/screen$(date +_%Y-%m-%d_%H-%M-%S).png}
+      [exec] (console) {xterm}
+      [exec] (file manager) {xterm -e mc}
+      [exec] (test lab) {xterm -e /labtest.sh}
+[submenu] (postgres)
+      [exec]   (sql client) {xterm -e psql -U postgres -d postgres}
+      [separator]
+      [exec]   (start) {xterm -e pg_ctl start -l /home/user/pglog.txt}
+      [exec]   (stop) {xterm -e pg_ctl stop}
+[end]
+      [separator]
+      [exec] (reboot) {lua5.3 /usercmd.lc reboot}
+      [exec] (shutdown) {lua5.3 /usercmd.lc shutdown}
+[end]
+[endencoding]
+[end]
